@@ -1,0 +1,143 @@
+
+.addnewdoctor{
+    background: linear-gradient(140deg,#dcf6f78e, #a4c2f5a1);
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+.addnewdoctor img{
+    width: 10vw;
+    margin: auto;
+}
+.addnewdoctor h1{
+  color: olive;
+
+}
+.addnewdoctor p{
+    font-size: 1.5rem;
+}
+.addnewdoctor form{
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   background: linear-gradient(140deg,rgba(205, 232, 252, 0.784), #f1f8d2a1);
+   border-radius: 10px;
+  
+}
+.addnewdoctor form .avtar {
+    height: 60vh;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addnewdoctor form .avtar img{
+    border: 2px solid rgba(177, 223, 255, 0.615);
+    background: linear-gradient(100deg, #64bfeca1,rgba(239, 204, 239, 0.784));
+    width: 23vw;
+    margin: auto;
+    border-radius: 2vh;
+}
+.addnewdoctor form .form-container{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.addnewdoctor form .form-container .form-container-input{
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.addnewdoctor form .form-container .form-container-input .inp{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 3vw;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 2px solid;
+}
+input[type="date"]:before {
+    color: rgb(0, 0, 0);
+    content: attr(placeholder) !important;
+    margin: auto;
+    
+  
+  }
+  input[type="date"]:focus:before {
+    content: '' !important;
+  }
+
+
+.addnewdoctor form .button{
+    background-color: rgba(27, 179, 118, 0.59);
+     
+}
+.addnewdoctor form .button:hover{
+transform: scale(1.01);
+transition: .2s linear;
+}
+@media (max-width:1024px) {
+    input {
+        width: 25vw;
+    }
+    .addnewdoctor form .form-container .form-container-input {
+        width: 50vw;
+    }
+    .addnewdoctor form .form-container .form-container-input .inp {
+        width: 23vw;
+        font-size: 2vw;
+    }
+    .addnewdoctor form .button {
+        height: 5vh;
+        width: 25vw;
+
+    }
+    .addnewdoctor img {
+        width: 15vw;
+        
+    }
+    .addnewdoctor form .form-container .form-container-input {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .addnewdoctor form .form-container .form-container-input {
+        height: 15vh;
+    }
+    .addnewdoctor form .form-container .form-container-input .inp {
+        width: 40vw;
+        height: 6vh;
+    }
+
+}
+@media (max-width:500px) 
+{
+    .addnewdoctor form .form-container .form-container-input .inp {
+        font-size: 3vw;
+    }
+    .addnewdoctor form .button {
+      font-size: 3vw;
+
+    }
+    .addnewdoctor h1 {
+font-size: 6vw;
+    }
+}

@@ -1,0 +1,124 @@
+.appointment-page .appointment-page-top{
+    height: 60vh;
+    background-color: rgba(242, 219, 255, 0.5);
+    display: flex;
+
+}
+.appointment-page .appointment-page-bottom{
+    height: 100vh;
+    background-color:  rgba(242, 219, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.appointment-page-top-left{
+    width: 40vw;
+    display: flex;
+}
+.appointment-page-top-left h2{
+font-size: 5vw;
+text-align: center;
+margin: auto;
+font-weight: 700;
+color: #31bacd;
+}
+.appointment-page-top-right{
+    width: 60vw;
+    display: flex;
+}
+.appointment-page-top-right img{
+    width: 50vw;
+    margin: auto;
+    height: 55vh;
+}
+.appointment-page .appointment-page-bottom form{
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.appointment-page .appointment-page-bottom h2{
+    font-size: 3.5rem;
+    color: rgb(127, 101, 53);
+}
+.appointment-page .appointment-page-bottom h4{
+    font-size: 1.4rem;
+}
+.appointment-page .appointment-page-bottom form .form-input{
+    margin: auto;
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.appointment-page .appointment-page-bottom form .inp ,.text-area{
+    height: 8vh;
+    width: 30vw;
+    margin: auto;
+    border-radius: 2vh;
+    text-align: center;
+    font-size: 1.3rem;
+    border: 2px solid;
+    resize: none;
+    align-content: center;
+    align-items: center;
+}
+.appointment-page .appointment-page-bottom form .btn{
+    margin: auto;
+}
+.appointment-page .appointment-page-bottom form .forminp{
+    justify-content:flex-end;
+    margin-right: 7.5vw;
+    display: flex;
+}
+.forminp p{
+    font-size: 2vw;
+}
+@media (max-width:800px) {
+    .appointment-page .appointment-page-top {
+        height: 50vh;
+    }
+    .appointment-page-top-left {
+        width: 50vw;
+        display: flex;
+    }
+    .appointment-page-top-right {
+        width: 50vw;
+        display: flex;
+    }
+    .appointment-page .appointment-page-bottom h2 {
+        font-size: 8vw;
+       
+    }
+    .appointment-page .appointment-page-bottom h4 {
+        font-size: 2.5vw;
+    }
+    .appointment-page-top-right img {
+    
+        height: 40vh;
+    }
+    .appointment-page-top-left h2 {
+        font-size: 8vw;
+        
+    }
+    .appointment-page .appointment-page-bottom {
+        height: 70vh;
+       
+    }
+    .appointment-page .appointment-page-bottom form {
+        height: 60vh;
+        width: 90vw;
+  
+    }
+    .appointment-page .appointment-page-bottom form .form-input {
+
+        width: 80vw;
+   
+    }
+    .appointment-page .appointment-page-bottom form .inp, .text-area {
+        height: 6vh;
+        width: 35vw;
+        font-size: 3vw;
+    }
+}

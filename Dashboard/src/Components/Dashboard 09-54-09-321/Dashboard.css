@@ -1,0 +1,129 @@
+.dashboard{
+    background: linear-gradient(150deg, rgba(196, 223, 253, 0.439), rgba(226, 209, 249, 0.7));
+    width: 85vw;
+    height: 100vh;
+overflow: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.dashboard .dashboard-top{
+    height: 30vh;
+    width: 100%;
+    background-color:inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dashboard .dashboard-top .top-item{
+    background: linear-gradient(180deg, rgba(212, 190, 248, 0.7), #d4e8fb70);
+    width: 35vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 5vh; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.dashboard .dashboard-top .top-item h1{
+    font-size: 5vw;
+    color: rgb(53, 4, 53);
+}
+.dashboard .dashboard-top .top-item h2{
+    font-size: 3vw;
+    color: rgb(74, 50, 5);
+}
+.dashboard .dashboard-top .top-item-right{ 
+    background: linear-gradient(140deg,#f3ede770, #afc7efa1);
+    width: 18vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 5vh; 
+    justify-content: center;
+    align-items: center;
+}
+.dashboard .dashboard-top .top-item-right h1{
+width: 80%;
+color: rgb(74, 50, 5);
+font-size: 2.4vw;
+
+}
+
+.dashboard .dashboard-top .top-item-right h2{
+    color: rgb(53, 4, 53);
+    font-size: 2vw;
+
+ }
+.dashboard-bottom{
+    height: 60vh;
+    width: 85vw;
+    background-color: inherit;
+
+    display: flex;
+}
+.dashboard-bottom .dashboard-info{
+    width: 95%;
+    height: 55vh;
+    margin: auto;
+    border-radius: 5vh;
+    background: linear-gradient(140deg,rgba(255, 196, 216, 0.285), #afc7efa1);
+    overflow-x:hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.dashboard-bottom .dashboard-info h2{
+    text-align: center;
+    font-size: 2.6vw;
+    color: #2d033fda;
+}
+table{
+    width: 75vw;
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 2vh;
+}
+thead{
+   font-size: 1.6vw;
+   font-weight: 400;
+   position: sticky;
+   top: 0px;
+   background-color: rgb(219, 196, 255);
+   border-radius: 50px;
+    
+}
+.stat{
+    background-color: rgba(239, 221, 253, 0.85);
+    border-radius: 3vh;
+}
+tbody tr td{
+font-size: 1.4vw;
+
+}
+::-webkit-scrollbar{
+    width: .1vw;
+}
+::-webkit-scrollbar-track{
+    background-color:inherit;
+}
+@media (max-width:800px) 
+{
+    .dashboard .dashboard-top .top-item {
+     
+        height: 50%;
+       
+    }
+    .dashboard .dashboard-top .top-item-right {
+        height: 40%;
+       
+    }
+    .stat {
+        height: 2vh;
+        font-size: 2vw;
+    }
+}

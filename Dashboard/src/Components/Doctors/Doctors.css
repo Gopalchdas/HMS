@@ -1,0 +1,116 @@
+.doctors{
+  width: 85vw;
+  display: flex;
+height: 100vh;
+overflow: scroll;
+flex-direction: column;
+align-items: center;
+background: linear-gradient(140deg,#dcf6f78e, #a4c2f5a1);
+}
+.doctors h1{
+    font-size: 3rem;
+    margin: 1vw auto;
+    color: #35095fc7;
+}
+.doctors .banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+
+}
+.doctors .banner .card{
+    width: 19vw;
+      background: linear-gradient(100deg, rgba(214, 236, 254, 0.577), #dbc6fea1);
+    border: 1px solid rgba(101, 101, 247, 0.304);
+    height: 50vh;
+    margin: 3vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+
+}
+.doctors .banner .card .head{
+    margin: auto;
+}
+.doctors .banner .card .head img{
+    height: 24vh;
+    width: 17vw;
+}
+.doctors .banner .card .card-details{
+    margin: auto;
+    width: 18vw;
+
+}
+.doctors .banner .card .card-details p{
+font-size: 1.1rem;
+}
+
+.doctors .banner .card .card-details .em{
+    word-wrap:break-word;
+    text-overflow: clip; 
+    display: flex;
+    flex-direction: row;
+}
+.doctors .banner .card .card-details .em span{
+    width: 14vw;
+}
+@media (max-width:1024px) {
+    .doctors .banner {
+        grid-template-columns: 1fr 1fr;
+      
+    }
+    .doctors .banner .card {
+        width: 35vw;
+        height: 45vh;
+       
+    }
+    .doctors .banner .card .head img {
+   
+        width: 28vw;
+    }
+    .doctors .banner .card .head h2{
+        font-size: 3vw;
+    }
+    .doctors .banner .card .card-details {
+  
+        width: 28vw;
+    }
+    .doctors .banner .card .card-details p{
+        font-size: 1.8vw;
+    }
+}
+@media (max-width:800px) {
+    .doctors .banner .card .card-details p{
+        font-size: 2vw;
+    }
+}
+@media (max-width:500px) {
+    .doctors .banner {
+        grid-template-columns: 1fr ;
+      
+    }
+    .doctors .banner .card .card-details p{
+        font-size: 2vw;
+    }
+    .doctors .banner .card {
+        width: 60vw;
+        height: 40vh;
+       
+    }
+    .doctors .banner .card .head img {
+   
+        width: 50vw;
+    }
+    .doctors .banner .card .head h2{
+        font-size: 4vw;
+    }
+    .doctors .banner .card .card-details {
+  
+        width: 50vw;
+    }
+    .doctors .banner .card .card-details p{
+        font-size: 2.5vw;
+    }
+}

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #14c5676d;
+
+}
+
+.hero .hero-left {
+    display: flex;
+    width: 50vw;
+    height: 90vh;
+    flex-direction: column;
+    font-family: "Spectral", serif;
+    justify-content: space-around;
+}
+
+.hero .hero-left h1 {
+    font-size: 7vw;
+    font-weight: 400;
+    width: 45vw;
+    height: 43vh;
+    line-height: 6rem;
+    margin: 15vh 0vw 3vh 5vw;
+    color: black;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.465);
+    text-align: left;
+
+}
+
+.hero .hero-left h1 span {
+    font-size: 7vw;
+    font-weight: 400;
+    color: #14C567;
+    text-shadow: 2px 3px 6px #14c5676d;
+
+}
+
+.hero .hero-left p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 30vw;
+    height: 15vh;
+    margin: 0vh 5vw 0vh 5vw;
+    color: black;
+    line-height: 1.4rem;
+}
+
+.hero .hero-left button {
+    height: 10vh;
+    width: 30vw;
+    margin-left: 5vw;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: #83F5F5;
+    font-size: 1.8rem;
+}
+
+.hero .hero-left button:hover {
+    background-color: #39de866d;
+    color: green;
+    transition: 0.2s ease-in;
+    border: 1px solid green;
+}
+
+
+.hero .hero-right {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+}
+
+.hero .hero-right img {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width:1280px) {
+
+    .hero .hero-left button {
+        font-size: 2.4vw;
+    }
+
+}
+
+@media (max-width:1024px) {
+
+    .hero .hero-left p {
+        width: 35vw;
+    }
+
+}
+
+@media (max-width:800px) {
+    .hero{
+        height: 80vh;
+    }
+    .hero .hero-left h1 {
+        font-size: 7vw;
+        margin: 5vh 0vw 3vh 5vw;
+    }
+    .hero .hero-left {
+        justify-content: center;
+        height: 80vh;
+    }
+    .hero .hero-right {
+        height: 80vh;
+    }
+
+    .hero .hero-right img {
+        height: 70%;
+    }
+    .hero .hero-left p {
+        display: none;
+    }
+
+    .hero .hero-left button {
+        height: 7vh;
+        width: 40vw;
+        font-size: 2.7vw;
+        font-weight: 450;
+    }
+  
+     
+    
+
+
+}

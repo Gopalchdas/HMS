@@ -1,0 +1,158 @@
+.navbar {
+    height: 12vh;
+    width: 100vw;
+    background-color: #d2f7f7;
+    display: flex;
+    font-family: "Poppins";
+    flex-direction: row;
+
+}
+
+
+.navbar .navbar-logo {
+    width: 12vw;
+    height: 100%;
+    display: flex;
+
+    margin-right: 10vw;
+}
+
+.navbar .navbar-logo img {
+    width: 7vw;
+    height: 9vh;
+    margin: auto;
+}
+
+.navbar .navbar-menu {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.navbar .navbar-menu .li {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.navbar .navbar-login {
+    width: 25vw;
+    height: 100%;
+    display: flex;
+
+    margin-left: 10vw;
+}
+.navbar .navbar-login img{
+    width: 4vw;
+    height: 7vh;
+    margin: auto;
+    display: none;
+    cursor: pointer;
+}
+
+.navbar .navbar-login button {
+    width: 8vw;
+    margin: auto;
+    height: 5vh;
+    border-radius: 2vh;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+.sidebar{
+    width: 60vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.213);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: none;
+    z-index: 777777;
+}
+@media (max-width:1280px) {
+
+    .navbar .navbar-menu{
+
+        width: 35vw;
+    }
+    .navbar .navbar-login button {
+        width: 10vw;
+    }
+}
+
+@media (max-width:1024px) {
+    .navbar .navbar-menu{
+        width: 40vw;
+    }
+    .navbar .navbar-login button {
+        width: 10vw;
+    }
+    .navbar .navbar-logo img {
+        width:initial;
+        height: initial;
+        
+    }
+}
+@media (max-width:800px) {
+    .navbar {
+        overflow-x: hidden; /* Ensures no horizontal overflow */
+        position: relative;
+        height: 10vh;
+    }
+    .navbar .navbar-logo {
+        margin:auto;
+        width: 16vw;
+
+    }
+    .navbar .navbar-logo img {
+       height: 7vh;
+       width: 14vw;
+    }
+    .navbar .navbar-menu .li {
+        display: none;
+    
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        right: -60vw;
+    }
+    .sidebar .img{
+        width: 15vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 7vh;
+        display: flex;
+    }
+    /* .sidebar .img img{
+        width: 12vw;
+        height: 6vh;
+        margin: auto;
+    } */
+    .sidebar .li{
+        height: 10vh;
+       font-size: 6vw;
+       text-align: center;
+       margin-bottom: 2vh;
+
+    }
+    .navbar .navbar-login img{
+        display: inline;
+        width: 8vw;
+    }
+    .navbar .navbar-login button {
+        font-size: 2vw;
+        width: 15vw;
+        height: 4vh;
+    }
+}

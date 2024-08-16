@@ -1,0 +1,109 @@
+.about {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(218, 237, 249, 0.889);
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.about .about-us-left {
+    width: 40vw;
+    display: flex;
+}
+
+.about .about-us-left img {
+    width: 40vw;
+    margin: auto;
+}
+
+.about .about-us-right {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.about .about-us-right h1 {
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(1, 57, 79);
+}
+
+.about .about-us-right p {
+    font-size: 2rem;
+    /* padding: 0vh 5vw 0vh 2vw;
+    margin-bottom: 7vh; */
+}
+
+.about .about-us-right button {
+    height: 10vh;
+    width: 30vw;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: #83F5F5;
+    font-size: 2rem;
+
+}
+
+.about .about-us-right button:hover {
+    background-color: rgba(218, 237, 249, 0.889);
+    color: green;
+    transition: 0.2s ease-in;
+    border: #b3f583;
+    border: 1px solid green;
+}
+
+@media (max-width:1280px) {
+
+    .about .about-us-right h1 {
+        font-size: 4rem;
+    }
+
+    .about .about-us-right p {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .about .about-us-right h1 {
+        font-size: 3.5rem;
+    }
+
+    .about .about-us-right p {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:800px) {
+
+    .about{
+        height: 80vh;
+        display: flex;
+       justify-content: center;
+    }
+    .about .about-us-right p {
+        font-size: 4vw;
+    }
+    .about .about-us-left {
+       display: none;
+    }
+    .about .about-us-right {
+        width: 80vw;
+       height: initial;
+    }
+    .about .about-us-right h1 {
+        font-size: 7vw;
+    }
+    .about .about-us-right button {
+        height: 8vh;
+        width: 50vw;
+        font-size: 5vw;
+    }
+}
+@media (max-width:500px) {
+
+
+    .about .about-us-right p {
+        font-size: 2vh;
+    }}

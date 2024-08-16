@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height: 25vh;
+    width: 100vw;
+    background-color:#d2f7f7;
+    font-family: "Poppins";
+    display: flex;
+  
+}
+.social-icon{
+    width: 20vw;
+    margin-left: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.social-icon .footer-logo{
+    height: 13vh;
+    width: 9vw;
+    margin:2vh auto ;
+}
+.social-icon .icon{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    margin: auto;
+}
+.social-icon .x{
+    height: 3.5vh;
+    width: 1.8vw;
+    
+}
+.social-icon .youtube{
+    height: 3.5vh;
+    width: 2vw;
+
+}
+.social-icon .insta{
+    height: 3.5vh;
+    width: 2vw;
+}
+.links{
+    width: 20vw;
+    margin-left: 5vw;
+    text-align: center;
+    
+}
+.links h3{
+    font-weight: 500;
+    margin-top: 3vh;
+    font-size: 1.5rem;
+}
+.links ul{
+    text-align: left;
+    width: 10vw;
+    margin: 2vh auto;
+    line-height: 1.5rem;  
+}
+.links Link{
+    text-decoration: none;
+}
+
+.contact{
+    width: 20vw;
+    margin-left: 5vw;
+    text-align: center;
+
+}
+.contact h3{
+    margin-top: 3vh;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.contact ul{
+    text-align: left;
+    width: 15vw;
+    margin: 2vh auto;
+    line-height: 1.5rem;
+    padding-left: 4vw;
+}
+@media (max-width:800px) {
+.footer {
+    height: 15vh;
+}
+.social-icon .footer-logo {
+        height: 7vh;
+        width: 9vw;
+        margin: auto;
+}
+
+.social-icon .icon {
+   display: none;
+
+}
+.social-icon .x {
+    height: 2.5vh;
+}
+.social-icon .insta {
+    height: 2.5vh;
+}
+.social-icon .youtube {
+    height: 2.5vh;
+}
+.links{
+    margin: auto;
+    width: auto;
+}
+.links h3 {
+    font-size: initial;
+    margin-top: 0;
+}
+.links ul {
+    margin:auto;
+    font-size: 2vw;
+    width: inherit;
+    text-align: center;
+}
+.contact{
+    margin: auto;
+    width: auto;
+}
+.contact h3 {
+    font-size: initial;
+    margin-top: 0;
+}
+.contact ul {
+    margin:auto;
+    font-size: 2vw;
+    width: inherit;
+    text-align: center;
+    padding-left: 0;
+}
+
+}

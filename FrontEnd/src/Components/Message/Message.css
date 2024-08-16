@@ -1,0 +1,101 @@
+.form-container{
+    height: 100vh;
+    width: 100vw;
+    background-color:#fdf6ff81;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+.form-container h1{
+    text-align: center;
+    margin:5vh 0vw;
+    font-size: 4vw;
+    margin-bottom: 5vh;
+
+}
+.form-group{
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    margin: 5vh auto;
+
+}
+.form-group input{
+    height: 10vh;
+width: 30vw;
+border-radius: 2vw;
+border: black;
+outline: none;
+text-align: center;
+font-size: 1.5rem;
+color: rgb(255, 255, 255);
+background-color: #000000d8;
+}
+.form-group input:hover{
+    background-color: rgb(214, 213, 253);
+    color: #000;
+}
+.form-group textarea {
+    width: 94%;
+    height: 20vh;
+    resize: none;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 1.5rem;
+color: rgb(255, 255, 255);
+background-color: #000000d8;
+border: black;
+
+align-content: center;
+outline: none;
+}
+.form-group textarea:hover{
+    background-color: rgb(214, 213, 253);
+    color: #000;
+}
+
+button {
+    width: 20vw;
+    height: 8vh;
+    border: none;
+    border-radius: 2vw;
+    background-color: #CCF8CC;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #B3E6B3;
+}
+@media (max-width:800px) {
+    .form-container {
+        height: 80vh;
+    }
+.form-container h1 {
+    font-size: 6vw;
+}
+.form-group {
+
+    width: 90vw;
+
+}
+.form-group input {
+    height: 7vh;
+    width: 40vw;
+    
+    font-size: 1rem;
+  
+}
+.form-group textarea {
+font-size: 1rem;
+    height: 15vh;
+
+}
+button {
+    width: 40vw;
+    height: 6vh;
+    font-size: 5vw;
+}
+
+}
