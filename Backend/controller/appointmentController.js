@@ -5,7 +5,7 @@ import { User } from "../models/userschema.js";
 import { Appointment } from "../models/appointmentschema.js";
 import nodemailer from 'nodemailer'
 const transporter = nodemailer.createTransport({
-  service: 'gmail', // Replace with your email provider
+  service: 'gmail', 
   auth: {
       user: 'gopalchandradas9069487@gmail.com',
       pass: 'uwnckwwvufeagzzt'
